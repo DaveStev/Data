@@ -27,13 +27,14 @@ body {
 .banner-text ul li:hover {
 	cursor: pointer;
 }
+
 /*fONDO AMPLIAR O DISMINUIR*/
 .animation-area {
 	background: linear-gradient(to left, #0e75ea, #00ddff);
 	width: 99vw;
 	height: 100vh;
 }
-/*fONDO AMPLIAR O DISMINUIR.*/
+/*fONDO AMPLIAR O DISMINUIR*/
 .box-area {
 	position: absolute;
 	top: 0;
