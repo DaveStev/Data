@@ -2,9 +2,11 @@
 	margin: 0;
 	padding: 0;
 }
+
+
 body {
     
-    background: linear-gradient(to left, #0e75ea, #00ddff);
+    background: linear-gradient(to right,#ec38bc, #7303c0);  
 	font-family: 'Baloo 2', cursive;
     
 }
@@ -27,10 +29,9 @@ body {
 .banner-text ul li:hover {
 	cursor: pointer;
 }
-
 /*fONDO AMPLIAR O DISMINUIR*/
 .animation-area {
-	background: linear-gradient(to left, #0e75ea, #00ddff);
+	background: linear-gradient(to right,#ec38bc, #7303c0);  
 	width: 99vw;
 	height: 100vh;
 }
@@ -40,7 +41,7 @@ body {
 	top: 0;
 	left: 0;
 	width: 90%;
-	height: 100%;
+	height: 170%;
 	overflow: hidden;
 }
 .box-area li {
@@ -104,6 +105,15 @@ body {
 	}
 }
 
+#miGrafica {
+	width: 50%; 
+	height: 50%;
+}
+
+#myChart {
+	margin-top: -100px;
+  }
+
 .botonjuego{
     display: inline-block;
     padding: 10px 15px;
@@ -136,16 +146,16 @@ body {
     text-decoration: none;
     outline: none;
     color: #fff;
-    background-color: #0f029e;
-    border: none;
-    border-radius: 15px;
+    background-color: rgb(77, 5, 77);
+    border: black;
+    border-radius: 200px;
     box-shadow: 0 9px #000000;
   }
   
-  .button:hover {background-color: #484af8}
+  .button:hover {background-color: purple}
   
   .button:active {
-    background-color: #484af8;
+    background-color: rgb(77, 5, 77);
     box-shadow: 0 5px #000000;
     transform: translateY(4px);
   }
@@ -165,16 +175,16 @@ body {
     box-shadow: 0 9px #000000;
   }
   
-  .boton:hover {background-color: #484af8}
+  .boton:hover {background-color: rgb(67, 66, 66)}
   
   .boton:active {
-    background-color: #484af8;
+    background-color: rgb(67, 66, 66);
     box-shadow: 0 5px #000000;
     transform: translateY(4px);
   }
 
   .nav-brand {
-    width: 160px;
+    width: 130px;
   }
 
   .nav-main {
@@ -246,3 +256,6 @@ input[type="submit"]:hover {
 	border-radius: 5px;
 	display: none;
 }
+
+
+/*quiz*/

@@ -13,3 +13,4 @@ formulario.addEventListener('submit', function(event) {
 	resultado.innerHTML = `Gracias por completar la encuesta ${nombre}.<br>Tu edad es ${edad}, tu deporte favorito es ${deporte}, tu comida favorita es ${comida},la comida que no te gusta es ${comida2} y <br>Tu género es ${genero}.`;
 	resultado.style.display = 'block';
 });
+
